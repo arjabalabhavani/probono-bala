@@ -38,6 +38,7 @@ body {
     top: 0;
     bottom: 0;
     left: 0;
+    z-index: 1;
 }
 
 .logo-width {
@@ -46,6 +47,9 @@ body {
 
 .color-white {
     color: #ffffff;
+}
+.bg-blue{
+    background: #1C5DC5;
 }
 
 .width-img-2 {
@@ -94,6 +98,16 @@ body {
 .font-16{
     font-size: 16px;
 }
+.collapse{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 85%;
+    height: 100%;
+    z-index: 9;
+}
+
 
 @media (min-width: 768px) {
     .nav-menu-holder {

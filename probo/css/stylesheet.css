@@ -87,8 +87,18 @@ body {
     font-size: 12px;
     font-weight: 600;
 }
+.button-styl2 {
+    width: 150px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
 .blue-color{
     color: #1C5DC5;
+}
+.bg-white{
+    background: #ffffff;
 }
 
 .blue-underline {

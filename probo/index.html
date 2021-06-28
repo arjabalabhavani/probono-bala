@@ -117,8 +117,10 @@
         $('.navbar-toggler').on('click', function(){
             if($('.collapse').hasClass('show')){
                 $('.collapse').removeClass('show');
+                $('.navbar-dark').removeClass('mob-nav-bg');
             }else{
                 $('.collapse').addClass('show');
+                $('.navbar-dark').addClass('mob-nav-bg');
             }
         })
     });

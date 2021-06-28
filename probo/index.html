@@ -39,7 +39,7 @@
                     <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="img-fluid"></a>
 
 
-                    <div class="collapse bg-blue navbar-collapse" id="collapsibleNavbar">
+                    <div class="collapse bg-blue navbar-collapse" id="">
                         <button class="navbar-toggler d-lg-block p-0" type="button" data-toggle="collapse"
                             data-target="#collapsibleNavbar">
                             <i class="fa fa-times" aria-hidden="true"></i>
@@ -112,7 +112,17 @@
             </div>
         </div>
     </section>
-
+<script>
+    $(document).ready(function(){
+        $('.navbar-toggler').on('click', function(){
+            if($('.collapse').hasClass('show')){
+                $('.collapse').removeClass('show');
+            }else{
+                $('.collapse').addClass('show');
+            }
+        })
+    });
+</script>
 </body>
 
 </html>

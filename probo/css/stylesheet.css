@@ -108,11 +108,10 @@ body {
 .font-16{
     font-size: 16px;
 }
-.collapse{
+.collapse.show{
     position: fixed;
     top: 0;
     left: 0;
-    bottom: 0;
     width: 85%;
     height: 100%;
     z-index: 9;

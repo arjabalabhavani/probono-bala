@@ -20,47 +20,113 @@
 </head>
 
 <body>
-    <header>
+    <section class="ad-section p-3">
         <div class="container">
             <div class="row">
-                <div class="advt col-lg-12 p-0 my-3 mx-lg-0 mx-3">
+                <div class="advt col-12 d-block d-lg-none p-0">
+                    <h6 class="text-center mb-0 p-1">Advertisment</h6>
+                    <p class="text-center p-3 m-0 advt-bg color-white">LEADERBOARD BANNER</p>
+                </div>
+                <div class="advt col-12 d-lg-block d-none p-0 my-3 mx-lg-0 mx-3">
                     <h6 class="text-center mb-0">Advertisment</h6>
                     <img src="./images/avd1.png" class="img-fluid" alt="">
                 </div>
             </div>
         </div>
-        <div class="menu-bar bg-blue">
+    </section>
+    <header class="py-3 bg-blue">
+        <div class="col-lg-12 menu-bar">
             <div class="container-fluid">
-                <nav class="w-100 d-flex flex-row flex-wrap align-items-center bg-blue navbar-dark">
-                    <button class="navbar-toggler d-lg-block p-0" type="button" data-toggle="collapse"
-                        data-target="#collapsibleNavbar">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" class="img-fluid"></a>
-
-
-                    <div class="collapse bg-blue navbar-collapse" id="">
-                        <button class="navbar-toggler d-lg-block p-0" type="button" data-toggle="collapse"
-                            data-target="#collapsibleNavbar">
-                            <i class="fa fa-times" aria-hidden="true"></i>
+                <nav class="col-lg-12 p-0 d-flex flex-row flex-wrap align-items-center bg-blue navbar-dark">
+                    <div class="col-lg-5 col-7 p-0">
+                        <button class="navbar-toggler p-0" type="button" data-toggle="collapse"
+                            data-target="#collapsibleNavbar" aria-expanded="false">
+                            <span class="navbar-toggler-icon"></span>
                         </button>
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                        <a class="navbar-brand text-left p-0 m-0 pl-lg-4" href="#"><img src="images/logo.png" alt=""
+                                class="img-fluid"></a>
+                    </div>
+                    <div
+                        class="col-lg-7 col-5 d-flex flex-row flex-wrap justify-content-between align-items-center p-0">
+                        <ul class="navbar-nav menu-ul-holder">
+                            <li class="nav-menu-1 text-center p-0">
+                                <a href="#" class="color-white fot-icon">
+                                    <i class="fa fa-user pr-lg-1"></i><span class="fot-text">
+                                        <span>LOG IN</span><span class="d-lg-block d-none">| REGISTER</span></span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                            <li class="nav-menu-1 text-center p-0">
+                                <a href="#" class="fot-icon color-white"><i
+                                        class="fa fa-shopping-cart pr-lg-1"></i><span class="fot-text">CART</span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
+                            <li class="nav-menu-1 text-center p-0">
+                                <a href="#" class="fot-icon color-white"><i class="fa fa-search pr-lg-1"></i><span
+                                        class="fot-text">Search</span></a>
                             </li>
+                            <div class="button-div d-lg-block d-none">
+                                <a href="#"
+                                    class="btn btn-bg color-white button-style btn-primary text-center align-middle rounded-pill border-0">SUBSCRIBE</a>
+                            </div>
+                        </ul>
+                    </div>
+                    <div class="collapse bg-blue navbar-collapse" id="">
+                        <div class="m-auto text-right text-lg-left pt-5 px-3">
+                            <button class="navbar-toggler d-lg-block p-0" type="button" data-toggle="collapse"
+                                data-target="#collapsibleNavbar">
+                                <i class="fa fa-times color-white" aria-hidden="true"></i>
+                            </button>
+                        </div>
+                        <ul class="navbar-nav p-4">
+                            <div
+                                class="col-lg-11 d-lg-flex flex-lg-wrap flex-lg-row justify-content-between mx-auto p-0 px-lg-3">
+                                <li class="nav-item pl-3">
+                                    <a class="nav-link" href="#">News <i
+                                            class="fa fa-angle-down color-white d-lg-none d-inline"
+                                            aria-hidden="true"></i></a>
+                                    <div class="sub-menu pl-3 py-3">
+                                        <ul>
+                                            <li class="py-3"><a href="#"></a>Policy</li>
+                                            <li class="py-3"><a href="#"></a>Social Affairs</li>
+                                            <li class="py-3"><a href="#"></a>Fundraising</li>
+                                            <li class="py-3"><a href="#"></a>Philanthropy</li>
+                                            <li class="py-3"><a href="#"></a>Governance</li>
+                                            <li class="py-3"><a href="#"></a>Marketing</li>
+                                            <li class="py-3"><a href="#"></a>Innovation</li>
+                                            <li class="py-3"><a href="#"></a>Good Business</li>
+                                            <li class="py-3"><a href="#"></a>Social Finance</li>
+                                            <li class="py-3"><a href="#"></a>Careers</li>
+                                            <li class="py-3"><a href="#"></a>Culture</li>
+                                            <li class="py-3"><a href="#"></a>Big Picture</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li class="nav-item pl-3">
+                                    <a class="nav-link" href="#">Careers <i
+                                            class="fa fa-angle-down color-white d-lg-none d-inline"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item pl-3">
+                                    <a class="nav-link" href="#">Impact <i
+                                            class="fa fa-angle-down color-white d-lg-none d-inline"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item pl-3">
+                                    <a class="nav-link" href="#">Directories <i
+                                            class="fa fa-angle-down color-white d-lg-none d-inline"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                                <li class="nav-item pl-3">
+                                    <a class="nav-link" href="#">Partner with us <i
+                                            class="fa fa-angle-down color-white d-lg-none d-inline"
+                                            aria-hidden="true"></i></a>
+                                </li>
+                            </div>
                         </ul>
                     </div>
                 </nav>
             </div>
         </div>
     </header>
-    <section class="banner-section py-5">
+    <section class="banner-section">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12 py-5">
@@ -102,7 +168,9 @@
                             </p>
                         </div>
                         <div class="button-div px-lg-2 pb-3">
-                            <a href="#" class="btn bg-blue color-white button-styl2 btn-primary text-center rounded-pill border-0">See our story</a>
+                            <a href="#"
+                                class="btn bg-blue color-white button-styl2 btn-primary text-center rounded-pill border-0">See
+                                our story</a>
                         </div>
                     </div>
                     <div class="col-lg-6 pb-5 pb-lg-0">
@@ -112,19 +180,19 @@
             </div>
         </div>
     </section>
-<script>
-    $(document).ready(function(){
-        $('.navbar-toggler').on('click', function(){
-            if($('.collapse').hasClass('show')){
-                $('.collapse').removeClass('show');
-                $('.navbar-dark').removeClass('mob-nav-bg');
-            }else{
-                $('.collapse').addClass('show');
-                $('.navbar-dark').addClass('mob-nav-bg');
-            }
-        })
-    });
-</script>
+    <script>
+        $(document).ready(function () {
+            $('.navbar-toggler').on('click', function () {
+                if ($('.collapse').hasClass('show')) {
+                    $('.collapse').removeClass('show');
+                    $('.navbar-dark').removeClass('mob-nav-bg');
+                } else {
+                    $('.collapse').addClass('show');
+                    $('.navbar-dark').addClass('mob-nav-bg');
+                }
+            })
+        });
+    </script>
 </body>
 
 </html>

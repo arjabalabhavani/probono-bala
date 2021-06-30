@@ -108,13 +108,18 @@ body {
 .font-16{
     font-size: 16px;
 }
-.collapse.show{
+.collapsee{
     position: fixed;
     top: 0;
-    left: 0;
     width: 85%;
     height: 100%;
     z-index: 9999;
+    left: -100%;
+    transition: all 0.5s ease-in-out;
+}
+.collapsee.show{
+    left: 0;
+    transition: all 0.5s ease-in-out;
 }
 .mob-nav-bg:before{
     content: '';

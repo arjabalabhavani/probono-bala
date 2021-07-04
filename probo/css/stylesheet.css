@@ -289,7 +289,6 @@ h2 {
     background: #F8F8F8;
 }
 
-
 .owl-carousel .owl-item img {
     width: 55px;
 }
@@ -336,23 +335,37 @@ h2 {
 .bg-blue-2 {
     background: #1C5DC5;
 }
-.rounded-mb{
+
+.rounded-mb {
     border-radius: 800px;
 }
-.input-group-text{
-    width: 100%; 
+
+.input-group-text {
+    width: 100%;
 }
-.logo-section .owl-carousel .item{
+
+.logo-section .owl-carousel .item {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
 .bdrd {
     width: 100px;
     height: 100px;
     border-radius: 100px;
 }
 
+/* .input-group-append{
+    display: flex;
+    justify-content: ;
+} */
+
+.input-group-text {
+    background: #26A39E !important;
+    border: none !important;
+    color: #ffffff;
+}
 
 @media (min-width: 768px) {
     .nav-menu-holder {
@@ -407,12 +420,18 @@ h2 {
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
     }
-    .rounded-pill-right {
+    .rounded-bg {
         border: none;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
+        background: #26A39E;
+        width: 120px;
     }
-
+    .sign-bt {
+        position: relative;
+        z-index: 9;
+    }
+    .input-group-append {
+        margin-left: -25px !important;
+    }
     .owl-nav {
         position: absolute;
         width: 100%;
@@ -426,5 +445,4 @@ h2 {
         align-items: center;
         padding: 0px !important;
     }
-    
 }

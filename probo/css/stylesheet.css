@@ -130,6 +130,7 @@ body {
 
 .collapsee {
     position: fixed;
+    overflow-y: scroll;
     top: 0;
     width: 85%;
     height: 100%;
@@ -366,6 +367,37 @@ h2 {
     border: none !important;
     color: #ffffff;
 }
+.bg-footer{
+    background: #10397B;
+}
+.icon-bor{
+    width: 35px;
+    height: 35px;
+    background: #ffffff;
+    border-radius: 35px;
+    color: #10397B;
+    padding-top: 9px;
+}
+.br-bottom{
+    border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+    ;
+}
+.br-top{
+    border-top: solid 1px rgba(255, 255, 255, 0.2);
+    ;
+}
+
+.disclimer-text p, .f-log p, .privacy p{
+    font-weight: 300;
+}
+.sub-menu{
+    display: none;
+}
+
+.nav-item:hover .sub-menu{
+    display: block;
+}
+
 
 @media (min-width: 768px) {
     .nav-menu-holder {
@@ -444,5 +476,13 @@ h2 {
         justify-content: space-between;
         align-items: center;
         padding: 0px !important;
+    }
+    .h3-ft {
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .ft-13{
+        font-size: 13px;
+        font-weight: 300;
     }
 }

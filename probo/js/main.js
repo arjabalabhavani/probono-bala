@@ -17,4 +17,20 @@ $(document).ready(function () {
             }
         }
     })
+    
+    $(".hov").on('click', function(){
+        if ($('.search-bar').hasClass('hide-me')){
+            $(".search-bar").removeClass("hide-me");
+            $(".search-bar").addClass("show-me");
+        }
+        else{
+            $('.search-bar').removeClass('show-me');
+            $(".search-bar").addClass("hide-me");
+        }
+        
+    });
+    $(".time-sty").on('click', function(){
+        $('.search-bar').removeClass('show-me');
+        $(".search-bar").addClass("hide-me");
+    });
 })

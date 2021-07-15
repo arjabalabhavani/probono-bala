@@ -182,11 +182,11 @@ body {
 }
 
 .fot-icon {
-    font-size: 20px;
+    font-size: 22px;
 }
 
 .fot-text {
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .nav-menu-1 {
@@ -401,7 +401,33 @@ h2 {
 .nav-item:hover .sub-menu{
     display: block;
 }
-
+.pd-t{
+    padding-top: 37px;
+}
+.search-bar{
+    background: #10397b;
+    position: absolute;
+    width: 100%;
+    height: 162px;
+    top: 254px;
+    left: 0;
+    z-index: 9;
+}
+.search-st{
+    background: #10397b !important;
+    border-bottom: solid 1px #ffffff !important;
+    border: none;
+    border-radius: 0px;
+}
+.time-sty{
+    text-align: end;
+}
+.show-me{
+    display: block;
+}
+.hide-me{
+    display: none;
+}
 
 @media (min-width: 768px) {
     .nav-menu-holder {
@@ -495,5 +521,9 @@ h2 {
     .font-d-18 {
         font-size: 18px;
         font-weight: 600;
+    }
+    
+    .hov:hover{
+        background: #10397b;
     }
 }
